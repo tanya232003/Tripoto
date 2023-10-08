@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(62deg, #ffffff 10%, #ffffff 90%);
+}
+button {
+  /* margin: 0px 10px; */
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #1ab2ff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  /* border-color: darkslategrey; */
+  /* color: darkslategrey; */
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  /* font-size: 19px; */
+
+  background-color: darkslategrey;
+  color: #1ab2ff;
+}
+h1 {
+  font-size: 32px;
+}
+/* h3{
+    font-size: 18px;
+} */
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-header {
+  background-color: #1ab2ff;
+  color: white;
+  margin: auto;
+  position: sticky;
+  top: 0px;
+}
+.logo {
+  display: flex;
+  flex: 0.1;
+  /* position: relative; */
+  /* display: inline-block; */
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo h3 {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+nav {
+  width: 95%;
+  padding: 8px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  /* flex-wrap: wrap;  */
+}
+
+#header-search {
+  padding-left: 5px;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex: 0.3;
+}
+
+.navigation {
+  margin-left: 200px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex: 0.6;
+  list-style: none;
+}
+
+.main {
+  background-image: url(./Assets/main-banner/home_banner_road.jpg);
+  /* background-repeat: no-repeat; 
+    background-size: cover; */
+  height: 65vh;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 150px;
+  font-size: 24px;
+
+  /* padding: 150px; */
+  font-size: 27px;
+}
+.search-main {
+  padding: 30px;
+}
+#search {
+  height: 45px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#search:hover {
+  cursor: pointer;
+}
+
+/* .......................benifits........................... */
+.benifits {
+  padding: 50px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+.benifits-section h3 {
+  font-size: 28px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.benifits-img {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.benifits-img img {
+  height: 80px;
+  width: 290px;
+  margin-left: 55px;
+}
+
+#inspiration h2 {
+  font-size: 28px;
+  text-align: center;
+  width: 60%;
+}
+.inspiration-wrap {
+  display: flex;
+  /* background-color: #1ab2ff; */
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  text-align: start;
+}
+.inspiration-wrap img {
+  height: 180px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+}
+.inspirations {
+  margin: 25px;
+  padding: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  /* justify-content: center; */
+}
+.card {
+  padding: 15px;
+}
+.inspirations h3,
+.card h3 {
+  color: #1ab2ff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inspirations h4,
+.card h4 {
+  font-size: 20px;
+}
+.inspiration-price {
+  display: flex;
+
+  justify-content: space-between;
+}
+.inspiration-price h2 {
+  justify-content: space-between;
+}
+
+.product-card {
+  display: flex;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+#packages {
+  padding: 20px;
+}
+.card img {
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+#packages h2 {
+  font-size: 28px;
+  text-align: center;
+  width: 45%;
+  margin: 40px 20px;
+}
+.card-flex1 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+.card-flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card h5 {
+  font-size: 17px;
+}
+.card h6 {
+  font-size: 18px;
+}
+
+#contact {
+  background-image: url(./Assets/footer-signin/img.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.form-wrapper button {
+  text-align: center;
+  font-size: 22px;
+  padding: 14px 42px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-wrapper {
+  background-color: white;
+  border-radius: 10px;
+}
+.form-head {
+  text-align: center;
+}
+.form-head h2 {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  color: darkslategray;
+}
+.container {
+  width: 600px;
+  padding: 0px 20px;
+}
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0px 12px 0px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.input-box input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 7px;
+  padding-left: 15px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.footer-wrapper {
+  background-color: #ccc;
+  color: darkslategrey;
+  height: 55vh;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.logo h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 3px;
+}
+.fa-brands {
+  font-size: 25px;
+  margin: 10px;
+
+  /* justify-content: space-between; */
+}
+.footer1-icons a {
+  color: darkslategrey;
+}
+.footer1-icons a:hover {
+  color: #1ab2ff;
+}
+.footer:hover{
+  cursor: pointer;
+
+}
+
+
+ @media screen and (max-width: 1400px) {
+
+   .main-header{
+     width: 1300px;
+     display: flex;
+     justify-content: space-around;
+   }
+   #header-search
+   {
+     display: none;
+   }
+   .navigation{
+     display: flex;
+     margin-left: 120px;
+     justify-content: space-between;
+   }
+   .navigation a{
+     display: flex;
+     margin-left: 120px;
+     justify-content: space-between;
+   }
+   .main{
+     width:1300px;
+   }
+   .benifits{
+     width: 1200px;
+     padding: 20px;
+     margin-top: 30px;
+   }
+   .benifits-img img{
+     height: 100px;
+   }
+   .inspiration-wrap{
+     display: flex;
+     width: 1300px;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     flex-direction: column; 
+     margin: auto;
+   
+   }
+   .inspirations{
+     width:800px;
+   }
+   #inspiration h2{
+     width: 1300px;
+     font-size: 40px;
+     padding: 20px;
+ 
+   }
+   #packages h2{
+     width: 1300px;
+     font-size: 40px;
+     padding: 20px;
+   }
+   #contact{
+     width: 1300px;
+   }
+   .footer-wrapper
+   {
+     width: 1300px;
+   }
+   .product-card{
+    width: 1300px;
+   }
+   .inspiration-price button{
+    /* padding: 20px; */
+    width: 240px;
+    height: 55px;
+   }
+   .inspiration-price{
+    display: flex;
+    align-items: center;
+   }
+ }
+ 
